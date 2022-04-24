@@ -142,7 +142,6 @@ namespace testpdf
 
             #endregion
 
-
             #region 文件压缩
 
             //ZipTest zipTest = new ZipTest();
@@ -156,14 +155,12 @@ namespace testpdf
 
             #endregion
 
-
             #region pdfSharp
             //PdfHelper.Instance.SaveImageAsPdf("底板.PDF");
 
 
 
             #endregion
-
 
             #region pdfLibCore
             //Bitmap bm = new Bitmap("115153.png");
@@ -237,7 +234,6 @@ namespace testpdf
             //}
             //bm.Save(Response.OutputStream, System.Drawing.Imaging.ImageFormat.Jpeg);
             #endregion
-
 
             #region EPPlus
             ////指定EPPlus使用非商业证书
@@ -416,7 +412,9 @@ namespace testpdf
             //    bmp.Save("C:\\Users\\Admin\\Desktop\\标签制作2\\生成\\" + rows[i][4].ToString() + ".png", ImageFormat.Png);
             //}
             #endregion
-          
+
+            Console.ReadLine();
+
         }
 
 
