@@ -383,7 +383,6 @@ namespace testpdf
 
             #endregion
 
-
             #region 批量生成图片
             //var reader = new ExcelReader("C:\\Users\\Admin\\Desktop\\标签制作2\\标签数据规则.xlsx"); // 快速读取excel数据
             //var rows = reader.ReadRows("标签").ToList();
